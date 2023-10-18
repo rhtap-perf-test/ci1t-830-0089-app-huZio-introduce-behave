@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-btq4
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-830-0089-tenant/ci1t-830-0089-app/devfile-sample-btq4@sha256:471f92ea3bfa23e0ca10bff4a5012b1ef1acee478835923bd18472c7b593b22a
+        name: my-nodejs
+        resources: {}
+status: {}
